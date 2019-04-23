@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: 0 auto;
+height: 885px;
+width:960px;
+background-image: url(../img/background.jpg);
+}
+.logo{
+    margin-left: 80px;
+}
+.contacts{
+    float: right;
+    padding-right: 80px;
+    padding-top: 97px;
+}
+.sidebar{
+    padding-left: 70px;
+    margin-top: -7px;
+}
+.content{
+    display: inline-block;
+    margin: 0 auto;
+}
+.content a{
+    text-decoration: none;
+
+}
+.content figcaption{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: tahoma;
+}
+.content_2{
+    margin-top: 50px;
+}
+.footer{
+    margin-top: 180px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-family: tahoma;
+
+}
