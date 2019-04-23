@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 910px;
+    height: auto;
+}
+.contacts{
+    height: 30px;
+    margin-top: 15px;
+}
+.phones {
+    float: left;
+    margin-top: 3px;
+    }
+.telefone{
+    float: left;
+}
+.coll{
+    color: #5e696d;
+        float: left;
+        font-size: 16px;
+        font-family: arial;
+}
+.avtoriz {
+    padding-top: 3px;
+    height: 27px;
+    border-radius: 7px;
+    float: left;
+     margin-left: 10px;
+    background: linear-gradient(to top, #0d365a 0%, #1f6787 100% )
+}
+.icon{
+    float: left;
+}
+.text{
+    float: left;
+}
+.avtoriz_item{
+    color: white;
+    text-decoration: none;
+}
+.navi {
+
+    float: right;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.navi a{
+    padding: 2px;
+}
+
+.top_menu {
+    width: auto;
+    height: 33px;
+    background-image: url(../img/menu.png);
+    background-repeat: repeat;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    color: #a2acb0;
+    list-style: none;
+    float: left;
+    padding: 17px;
+}
+
+.menu li a {
+    color: #a2acb0;
+    text-align: center;
+}
+
+.shop_cart {
+    float: right;
+    color: white;
+}
+
+.filter {
+    margin-top: 10px;
+}
+
+.filter_auto {
+    float: left;
+    width: 410px;
+    height: 132px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.auto_discs{
+    float: left;
+}
+.auto_tires{
+    float: right;
+}
+
+.filter_tires {
+float: left;
+    width: 190px;
+    height: 132px;
+    border: 1px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 15px
+}
+
+.filter_discs {
+
+    float: right;
+    width: 265px;
+    height: 132px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.content {
+margin-top: 15px;
+clear: both;
+    }
+
+.left_content {
+    float: left;
+    width: 180px;
+}
+
+.right_content {
+    float: right;
+    width: 150px;
+}
+
+.center_content {
+    display: inline-block;
+    margin: 10px;
+    height: 625px;
+    width: 526px;
+    background-image: url(../img/center.png);
+}
+
+.tovar {
+    float: left;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.test {
+    width: 136px;
+    height: 127px;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.tovar h3 {
+    color: #206988;
+    font-family: lucida sans Unicode;
+    font-size: 12px;
+    text-align: center;
+}
+
+.tovar p {
+    font-family: lucida sans Unicode;
+    font-size: 10px;
+    text-align: center;
+}
+
+.tovar .price {
+    color: #114165;
+    font-size: 10px;
+    font-family: arial;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.tovar li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tovar li a {
+    text-align: center;
+}
+
+
+.brand_logo {
+    background-color: black;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.brand_logo_item li {
+    list-style: none;
+    float: left;
+    padding: 12px;
+}
+
+.footer {
+    /* margin-top: 10px; */
+    background-color: #213a4d;
+    height: 100px;
+    clear: both;
+}
+
+.foot {
+    list-style: none;
+    text-align: center;
+}
+
+.foot li {
+    padding: 10px;
+    float: left;
+}
+
+.foot li a {
+    color: white;
+}
+
+.copy {
+    clear: both;
+    color: #7f4740;
