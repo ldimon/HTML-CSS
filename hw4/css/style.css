@@ -55,15 +55,7 @@ figure{
     margin: 0;
     padding: 0;
 }
-/* .flags figure{
-    float: left;
-    padding-left: 25px;
-}
-.flags figure a{
-    text-align: center;
-    font-size: 10px;
-    font-family: tahoma;
-} */
+
 .photo img{
     box-sizing: border-box;
     border: 1px solid #68b4c7;
