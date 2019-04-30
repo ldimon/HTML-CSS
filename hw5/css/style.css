@@ -4,7 +4,7 @@
 }
 
 body {
-  background: url(../img/background.png);
+  background: url(../img/background1.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -55,4 +55,12 @@ body {
   background: linear-gradient(to bottom, #50afdc 0%, #2f7cc5 100%);
 }
 
-&&&&;
+/*CONTAINER*/
+
+.container{
+  background-image: url(../img/container.png);
+  width: 546px;
+  height: 611px;
+  margin: auto;
+  margin-top: 210px;
+}
