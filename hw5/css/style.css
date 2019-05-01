@@ -10,6 +10,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
 /* HEADER */
 .header {
   height: 36px;
@@ -56,11 +57,105 @@ body {
 }
 
 /*CONTAINER*/
-
-.container{
+.container {
   background-image: url(../img/container.png);
   width: 546px;
   height: 611px;
   margin: auto;
   margin-top: 210px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: Tahoma;
+  line-height: 60px;
+}
+
+.facebook {
+  display: block;
+  margin-top: 36px;
+  text-align: center;
+}
+
+.ou {
+  position: relative;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Tahoma;
+  color: #999999;
+}
+
+.ou:before {
+  content: '';
+  width: 126px;
+  border-top: 1px solid #2e382e;
+  border-bottom: 1px solid black;
+  position: absolute;
+  top: 38px;
+  left: 131px;
+}
+
+.ou:after {
+  content: '';
+  width: 126px;
+  border-top: 1px solid #2e382e;
+  border-bottom: 1px solid black;
+  position: absolute;
+  top: 38px;
+  right: 131px;
+}
+
+form {
+  text-align: center;
+}
+
+.user {
+  padding-top: 20px;
+}
+
+.edit {
+  width: 275px;
+  height: 35px;
+  padding-left: 18px;
+  background-color: black;
+  color: white;
+  border: 0.1px solid transparent;
+  font-size: 14px;
+  font-family: Tahoma;
+}
+
+.edit:hover {
+  background-color: #1b5288;
+  border-radius: 2px;
+  box-shadow: 0 0 10px;
+}
+
+.checkbox {
+  padding-top: 20px;
+  color: white;
+  font-size: 14px;
+  font-family: Tahoma;
+}
+
+.submit {
+  padding-top: 20px;
+}
+
+.account {
+  width: 150px;
+  height: 35px;
+  background-color: #2e7bc4;
+  color: white;
+  border: 0.1px solid transparent;
+  border-radius: 5px;
+}
+
+p {
+  padding-top: 20px;
+  color: white;
+  font-size: 11px;
+  font-family: Tahoma;
 }
