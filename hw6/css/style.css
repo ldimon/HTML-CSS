@@ -150,6 +150,7 @@ display: inline-block;
 }
 .container {
   margin-top: 10px;
+  height: 607px;
 }
 .katalog {
   float: left;
@@ -286,4 +287,12 @@ display: inline-block;
   float: right;
   text-align: center;
   margin: 20px;
+}
+.logos {
+  clear: both;
+  margin-top: 40px;
+  text-align: center;
+}
+.logos img {
+  padding-left: 10px;
 }
