@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
   box-sizing: border-box;
   width: 1000px;
   margin: auto;
@@ -27,9 +27,9 @@
   font-family: "Lucida Sans Unicode", sans-serif;
   font-size: 11px;
   color: #fff;
-  background: linear-gradient(to bottom, rgba(31,102,133,1) 0%, rgba(13,52,88,1) 100%);
+  background: linear-gradient(to bottom, rgba(31, 102, 133, 1) 0%, rgba(13, 52, 88, 1) 100%);
   border-radius: 3px;
-  box-shadow: 1px 2px 6px 0px rgba(89,109,128,1);
+  box-shadow: 1px 2px 6px 0px rgba(89, 109, 128, 1);
 }
 
 .login_form img {
@@ -46,7 +46,7 @@
   padding-left: 4px;
   border-radius: 1px;
   border: 1px solid grey;
-  box-shadow: 0px 0px 2px 0px rgba(130,148,156,1);
+  box-shadow: 0px 0px 2px 0px rgba(130, 148, 156, 1);
   color: #97a2a6;
   margin-top: 3px;
   margin-left: -1px;
@@ -62,14 +62,14 @@
 }
 
 a.lost_pass {
-height: 19px;
-margin-left: 18px;
-margin-right: 10px;
-border-bottom: 1px solid #7c8794;
-font-size: 12px;
-color: #bfbfbf;
-letter-spacing: -0.5px;
-display: inline-block;
+  height: 19px;
+  margin-left: 18px;
+  margin-right: 10px;
+  border-bottom: 1px solid #7c8794;
+  font-size: 12px;
+  color: #bfbfbf;
+  letter-spacing: -0.5px;
+  display: inline-block;
 }
 
 .shadowed {
@@ -104,8 +104,8 @@ display: inline-block;
   box-sizing: border-box;
   background-color: #17191b;
   border-radius: 4px;
-  background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
-  background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
+  background-image: -webkit-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(44, 48, 52) 87%, rgb(87, 96, 104) 100%);
+  background-image: -moz-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(44, 48, 52) 87%, rgb(87, 96, 104) 100%);
   box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
@@ -129,6 +129,7 @@ display: inline-block;
   font-family: Lucida Sans Unicode;
   text-transform: uppercase;
 }
+
 .menu_item a:hover {
   background-color: #154b6d;
   border-radius: 20px;
@@ -148,24 +149,29 @@ display: inline-block;
   font-size: 12px;
   color: #868e92;
 }
+
 .container {
   margin-top: 10px;
   height: 607px;
 }
+
 .katalog {
   float: left;
 }
+
 .katalog_h1 {
   width: 180px;
   height: 24px;
   border: 1px solid #79878d;
-  box-shadow: 0px 2px 3px 0px rgba(150,150,150,1);
+  box-shadow: 0px 2px 3px 0px rgba(150, 150, 150, 1);
   border-radius: 15px;
 }
+
 .katalog_h1 img {
   display: inline-block;
   padding: 1px;
 }
+
 .katalog_h1 span {
   font-size: 13px;
   font-family: Lusida sans Unicode;
@@ -180,51 +186,63 @@ display: inline-block;
   border: 1px solid #79878d;
   border-radius: 15px;
 }
+
 .katalog_h2 img {
   padding: 1px;
 }
+
 .katalog_h2 span {
   font-size: 14px;
   font-family: Lusida sans Unicode;
   text-transform: uppercase;
   color: #114165;
 }
+
 .katalog_list {
   margin-left: 34px;
 }
+
 .katalog_list li {
   list-style: circle;
   color: #114165;
   padding: 5px;
 }
+
 .katalog_list li a {
   text-decoration: none;
   color: #114165;
 }
+
 .katalog_list li a:hover {
   text-decoration: underline;
   font-weight: bold;
 }
+
 .brand {
   float: right;
 }
+
 .katalog_list1 {
   margin-left: 34px;
 }
+
 .katalog_list1 li {
   list-style: unset;
   color: #114165;
   padding: 5px;
 }
+
 .katalog_list2 {
   color: #114165;
   padding: 5px;
   font-size: 13px;
   font-family: Lusida sans Unicode;
 }
+
 .but {
   margin-top: 20px;
 }
+
 .but1 {
   padding: 10px 15px;
   border: 0.1px solid transparent;
@@ -235,41 +253,49 @@ display: inline-block;
   font-family: Arial;
   text-transform: uppercase;
 }
- .tovar {
-   float: left;
-   width: 527px;
-   margin-left: 10px;
-   background-image: url(../img/center.png);
- }
- .tovar li{
-   padding-top: 10px;
- }
- .tovar a {
-   text-decoration: none;
- }
- .tovar p {
-   font-size: 15px;
-   font-family: Lusida Sans Unicode;
-   color: #206988;
- }
- .tovar span {
-   font-size: 13px;
-   font-family: Lusida Sans Unicode;
-   color: black;
- }
- .price.price {
-   font-size: 16px;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: italic;
-   color: #114165;
- }
+
+.tovar {
+  float: left;
+  width: 527px;
+  margin-left: 10px;
+  background-image: url(../img/center.png);
+}
+
+.tovar li {
+  padding-top: 10px;
+}
+
+.tovar a {
+  text-decoration: none;
+}
+
+.tovar p {
+  font-size: 15px;
+  font-family: Lusida Sans Unicode;
+  color: #206988;
+}
+
+.tovar span {
+  font-size: 13px;
+  font-family: Lusida Sans Unicode;
+  color: black;
+}
+
+.price.price {
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: bold;
+  font-style: italic;
+  color: #114165;
+}
+
 .goodyear {
   float: left;
   width: 135px;
   margin: 20px;
   text-align: center;
 }
+
 .goodyear_img {
   width: 134px;
   height: 125px;
@@ -278,21 +304,56 @@ display: inline-block;
   border-radius: 8px;
   border: 1px solid #adb6b9;
 }
+
 .nokian {
   float: left;
   text-align: center;
   margin: 20px;
 }
+
 .hankook {
   float: right;
   text-align: center;
   margin: 20px;
 }
+
 .logos {
   clear: both;
   margin-top: 40px;
   text-align: center;
 }
+
 .logos img {
   padding-left: 10px;
+}
+
+.footer {
+  width: auto;
+  height: 100px;
+  margin-top: 25px;
+  background-color: #213a4d;
+  text-align: center;
+  line-height: 35px;
+}
+
+.footer a {
+  padding: 0 10px 0 5px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: Arial;
+  color: #bec6c9;
+}
+
+.footer a:hover {
+  color: #52abcb;
+}
+
+.footer span {
+  color: white;
+}
+
+.footer p {
+  font-size: 10px;
+  font-family: Arial;
+  color: #7f4740;
 }
