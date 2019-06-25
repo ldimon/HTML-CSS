@@ -14,7 +14,9 @@
 
 .header {
   width: 960px;
+  height: 280px;
   margin: 0 auto;
+  padding-top: 70px;
 }
 
 .logo {
@@ -28,6 +30,42 @@
   color: white;
 }
 
+.er {
+  background: linear-gradient(to top, #34263b, #553c61, #745083);
+  -webkit-background-clip: text;
+  color: transparent;
+}
 .navigation {
   float: right;
+}
+
+.menu li {
+  float: left;
+  padding-left: 40px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-family: 'League Gothic';
+  text-transform: uppercase;
+  line-height: 40px;
+}
+
+.menu li a:hover {
+  border-bottom: 2px solid #edbfff;
+}
+
+.slider {
+  height: 400px;
+  background-image: url(..//img/overlay.png);
+}
+.lorem {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.text {
+  width: 500px;
 }
