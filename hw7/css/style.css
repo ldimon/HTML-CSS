@@ -68,4 +68,42 @@
 
 .text {
   width: 500px;
+  float: left;
+  margin-top: 45px;
+}
+
+.lorem_lorem {
+  font-size: 40px;
+  font-family: 'League Gothic';
+  color: white;
+}
+
+.lorem_it {
+  font-size: 32px;
+  font-family: 'League Gothic';
+  line-height: 45px;
+  color: #edbfff;
+}
+
+.lorem_semper {
+  width: 500px;
+  font-size: 18px;
+  font-family: 'Open sans';
+  font-weight: 300;
+  line-height: 25px;
+  color: white;
+}
+
+
+.tel {
+  margin-top: -15px;
+  position: relative;
+  float: right;
+}
+
+.tel a {
+  display: block;
+  position: absolute;
+  top: 150px;
+  left: 130px;
 }
