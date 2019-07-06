@@ -58,7 +58,7 @@
 }
 
 .slider {
-  height: 400px;
+  height: 385px;
   background-image: url(..//img/overlay.png);
 }
 .lorem {
@@ -106,4 +106,37 @@
   position: absolute;
   top: 150px;
   left: 130px;
+}
+
+.sprite {
+  clear: both;
+  float: right;
+  margin-right: 165px;
+  margin-top: 15px;
+}
+
+
+.menu_sprite {
+  position: relative;
+  overflow: hidden;
+}
+
+.menu_sprite li {
+  float: left;
+  padding: 5px;
+}
+.menu_sprite a {
+  display: block;
+}
+
+.menu_sprite a:hover {
+  background-image: url(../img/circle_hover.png);
+  width: 17px;
+  height: 17px;
+}
+
+.blurbs {
+  height: 349px;
+  background: linear-gradient(to top, #35273c, #573d62, #745083);
+  border: 1px solid #33253a;
 }
