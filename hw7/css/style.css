@@ -140,3 +140,53 @@
   background: linear-gradient(to top, #35273c, #573d62, #745083);
   border: 1px solid #33253a;
 }
+
+.about {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.read {
+  width: 310px;
+  display: inline-block;
+  margin-top: 80px;
+}
+
+.about_our {
+  font-size: 30px;
+  font-family: 'League Gothic';
+  color: white;
+  line-height: 40px;
+}
+
+.nunc {
+  width: 260px;
+  padding-left: 36px;
+  font-size: 16px;
+  font-family: 'Open Sans';
+  line-height: 25px;
+  color: white;
+}
+
+.read a {
+  float: right;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'League Gothic';
+  line-height: 80px;
+}
+
+.read a:hover {
+  color: white;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+.news {
+  height: 610px;
+  background-color: #f9f9f9;
+}
+
+.news_body {
+  margin: 0 auto;
+}
