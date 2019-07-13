@@ -188,5 +188,88 @@
 }
 
 .news_body {
+  width: 960px;
   margin: 0 auto;
+}
+
+.testimonials {
+  width: 425px;
+  height: 293px;
+  margin-top: 90px;
+  margin-bottom: 95px;
+  background-image: url(../img/bgtes.png);
+  float: left;
+}
+
+.ping_black {
+  font-size: 30px;
+  font-family: 'League Gothic';
+}
+
+.ping_black span {
+  color: #edbfff;
+}
+
+.nunc_tes {
+  font-size: 16px;
+  font-family: "Open sans";
+  line-height: 35px;
+  font-weight: 200;
+}
+.blog {
+  width: 400px;
+  float: right;
+  margin-top: 125px;
+}
+
+.recent {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'League Gothic';
+}
+
+.blog img {
+  float: left;
+}
+
+
+.nb {
+  float: left;
+  padding-left: 10px;
+}
+
+.nb span {
+  line-height: 27px;
+}
+
+.nunc_blog {
+  font-size: 16px;
+  font-family: "Open sans";
+  font-weight: 700;
+}
+
+.post {
+  font-size: 16px;
+  font-family: "Open sans"
+}
+
+.blog_2 {
+  clear: both;
+  padding-top: 10px;
+}
+
+.logos {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.logos img {
+  margin-left: 80px;
+  margin-top: 25px;
+}
+
+.block {
+  height: 355px;
+  background-color: #ececec;
+  border-top: 1px solid #d8d8d8;
 }
