@@ -1,10 +1,9 @@
 @font-face {
-    font-family: 'League Gothic';
-    src: url('../fonts/leaguegothiccyrillic-webfont.woff2') format('woff2'),
-         url('../fonts/leaguegothiccyrillic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'League Gothic';
+  src: url('../fonts/leaguegothiccyrillic-webfont.woff2') format('woff2'),
+    url('../fonts/leaguegothiccyrillic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .wrapper {
@@ -35,6 +34,7 @@
   -webkit-background-clip: text;
   color: transparent;
 }
+
 .navigation {
   float: right;
 }
@@ -61,6 +61,7 @@
   height: 385px;
   background-image: url(..//img/overlay.png);
 }
+
 .lorem {
   width: 960px;
   margin: 0 auto;
@@ -94,7 +95,6 @@
   color: white;
 }
 
-
 .tel {
   margin-top: -15px;
   position: relative;
@@ -115,7 +115,6 @@
   margin-top: 15px;
 }
 
-
 .menu_sprite {
   position: relative;
   overflow: hidden;
@@ -125,6 +124,7 @@
   float: left;
   padding: 5px;
 }
+
 .menu_sprite a {
   display: block;
 }
@@ -216,6 +216,7 @@
   line-height: 35px;
   font-weight: 200;
 }
+
 .blog {
   width: 400px;
   float: right;
@@ -231,7 +232,6 @@
 .blog img {
   float: left;
 }
-
 
 .nb {
   float: left;
@@ -319,7 +319,6 @@
 .comm {
   width: 33%;
   float: left;
-
 }
 
 .news_cat {
@@ -332,15 +331,10 @@
   background-image: url(../img/footer.png);
 }
 
-
 .footer_ul {
   width: 960px;
   margin: 0 auto;
   padding-top: 50px;
-}
-
-.footer_menu {
-
 }
 
 .footer_menu li {
@@ -362,6 +356,7 @@
   font-size: 12px;
   font-family: "Open Sans"
 }
+
 .as {
   font-weight: 800;
 }
