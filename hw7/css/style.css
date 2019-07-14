@@ -269,7 +269,99 @@
 }
 
 .block {
+  position: relative;
   height: 355px;
   background-color: #ececec;
   border-top: 1px solid #d8d8d8;
+}
+
+.block_center {
+  width: 960px;
+  margin: 95px auto;
+}
+
+.pi {
+  font-size: 48px;
+  font-family: 'League Gothic';
+  line-height: 70px;
+}
+
+.recco {
+  font-size: 30px;
+  font-family: 'league Gothic';
+  line-height: 40px;
+}
+
+.er_1 {
+  color: #b9b9b9;
+}
+
+.cop {
+  font-size: 16px;
+  font-family: Georgia;
+  font-style: italic;
+  color: #c5c5c5;
+}
+
+.nun_all {
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: #787878;
+  padding-right: 10px;
+  line-height: 20px;
+}
+
+.buller {
+  width: 33%;
+  float: left;
+}
+
+.comm {
+  width: 33%;
+  float: left;
+
+}
+
+.news_cat {
+  width: 33%;
+  float: left;
+}
+
+.footer {
+  height: 120px;
+  background-image: url(../img/footer.png);
+}
+
+
+.footer_ul {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.footer_menu {
+
+}
+
+.footer_menu li {
+  float: left;
+}
+
+.footer_menu li a {
+  display: block;
+  text-decoration: none;
+  padding-right: 30px;
+  color: white;
+  font-size: 20px;
+  font-family: 'League Gothic';
+}
+
+.footer_ul span {
+  float: right;
+  color: white;
+  font-size: 12px;
+  font-family: "Open Sans"
+}
+.as {
+  font-weight: 800;
 }
